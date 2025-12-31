@@ -24,12 +24,12 @@ public class Main {
 
         // Start the Swing GUI on the Event Dispatch Thread (EDT).
         //SwingUtilities.invokeLater(() -> createAndShowGUI(flashCard));
-        
+
         createAndShowGUI(flashCard);
     }
 
     /**
-     * Build and show the GUI. 
+     * Build and show the GUI.
      */
     private static void createAndShowGUI(FlashCard flashCard) {
         // Top-level window

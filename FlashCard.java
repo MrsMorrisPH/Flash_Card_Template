@@ -1,8 +1,8 @@
 import java.util.*;
 
 public class FlashCard {
-    private List<String> questions;
-    private List<String> answers;
+    private ArrayList<String> questions;
+    private ArrayList<String> answers;
 
     public FlashCard() {
         questions = new ArrayList<>();
